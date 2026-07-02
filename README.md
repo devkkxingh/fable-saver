@@ -1,6 +1,6 @@
 # fable-saver
 
-**A cost-routing skill for Claude Code that reduces Claude Fable session costs by an estimated 35–55%, with no change to planning or review quality.**
+**A cost-routing skill for Claude Code that reduces Claude Fable session costs by an estimated 35–56%, with no change to planning or review quality.**
 
 Claude Fable 5 is priced at 2x Claude Opus 4.8 per token. In a typical coding session, however, the majority of tokens are not spent on reasoning — they are spent reading files, searching directories, and writing mechanical edits. fable-saver teaches a Fable session to retain only the work that benefits from Fable-level intelligence (architecture, planning, design decisions, review) and delegate everything else to Opus or Haiku subagents at 50–90% lower per-token cost.
 

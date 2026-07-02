@@ -93,7 +93,7 @@ Requires [Claude Code](https://claude.com/claude-code). The skill installs at th
 From inside any Claude Code session:
 
 ```
-/plugin marketplace add YOUR_USERNAME/fable-saver
+/plugin marketplace add devkkxingh/fable-saver
 /plugin install fable-saver
 ```
 
@@ -102,7 +102,7 @@ This is the managed path: the plugin system handles namespacing and updates.
 ### Option B — Install script
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fable-saver.git
+git clone https://github.com/devkkxingh/fable-saver.git
 cd fable-saver
 ./install.sh
 ```
@@ -111,7 +111,7 @@ cd fable-saver
 
 ```bash
 mkdir -p ~/.claude/skills/fable-saver
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/fable-saver/main/skills/fable-saver/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/devkkxingh/fable-saver/main/skills/fable-saver/SKILL.md \
   -o ~/.claude/skills/fable-saver/SKILL.md
 ```
 

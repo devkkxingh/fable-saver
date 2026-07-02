@@ -92,10 +92,14 @@ Requires [Claude Code](https://claude.com/claude-code). The skill installs at th
 
 From inside any Claude Code session:
 
+1. Type `/plugin`, choose **Add marketplace**, and enter `devkkxingh/fable-saver`
+2. Install the plugin:
+
 ```
-/plugin marketplace add devkkxingh/fable-saver
-/plugin install fable-saver
+/plugin install fable-saver@fable-saver
 ```
+
+The `@fable-saver` suffix names the marketplace added in step 1. You can also add the marketplace non-interactively with `/plugin marketplace add devkkxingh/fable-saver`; if the subsequent install reports the plugin was not found, add the marketplace through the `/plugin` menu instead and retry.
 
 This is the managed path: the plugin system handles namespacing and updates.
 

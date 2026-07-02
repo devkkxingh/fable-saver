@@ -13,6 +13,6 @@ fi
 mkdir -p "$DEST_DIR"
 cp "$SRC" "$DEST_DIR/SKILL.md"
 
-echo "✅ fable-saver installed to $DEST_DIR"
+echo "fable-saver installed to $DEST_DIR"
 echo "   Start a new Claude Code session, set your model to Fable (/model),"
 echo "   then invoke it with: /fable-saver <your task>"

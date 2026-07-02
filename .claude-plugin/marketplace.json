@@ -1,0 +1,13 @@
+{
+  "name": "fable-saver",
+  "owner": {
+    "name": "Krishna"
+  },
+  "plugins": [
+    {
+      "name": "fable-saver",
+      "source": "./",
+      "description": "Cost-routing skill for Claude Fable sessions: Fable retains planning, architecture, and review; token-heavy work is delegated to Opus and Haiku subagents at 50-90% lower per-token cost."
+    }
+  ]
+}

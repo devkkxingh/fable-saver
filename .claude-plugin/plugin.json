@@ -1,0 +1,9 @@
+{
+  "name": "fable-saver",
+  "description": "Cost-routing skill for Claude Fable sessions: Fable retains planning, architecture, and review; token-heavy exploration, implementation, and test execution are delegated to Opus and Haiku subagents at 50-90% lower per-token cost.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Krishna"
+  },
+  "keywords": ["claude-code", "skill", "cost-optimization", "fable", "subagents"]
+}
